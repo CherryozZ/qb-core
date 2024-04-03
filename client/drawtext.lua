@@ -1,7 +1,7 @@
 local function hideText()
     SendNUIMessage({
         action = 'HIDE_TEXT',
-    })
+    }
 end
 
 local function drawText(text, position)
