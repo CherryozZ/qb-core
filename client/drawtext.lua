@@ -4,7 +4,7 @@ local function hideText()
     })
 end
 
-local function drawText(text, position)
+local function drawText(text, position
     if type(position) ~= 'string' then position = 'left' end
 
     SendNUIMessage({
